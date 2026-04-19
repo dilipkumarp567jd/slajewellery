@@ -1,186 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Sri Lakshmi Alankar Jewellery</title>
-
-    <!-- Makes site responsive -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial;
-            background-color: #fff8dc;
-        }
-
-        header {
-            background: linear-gradient(to right, #b8860b, #ffd700);
-            color: white;
-            padding: 15px;
-            text-align: center;
-            font-size: 20px;
-            font-weight: bold;
-        }
-
-        /* SLIDER */
-        .slider {
-            width: 100%;
-            height: 200px;
-            overflow: hidden;
-        }
-
-        .slides {
-            display: flex;
-            width: 300%;
-            animation: slide 9s infinite;
-        }
-
-        .slides img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
-
-        @keyframes slide {
-            0% {margin-left: 0;}
-            33% {margin-left: -100%;}
-            66% {margin-left: -200%;}
-        }
-
-        .content {
-            padding: 15px;
-        }
-
-        h2 {
-            color: #b8860b;
-            font-size: 18px;
-        }
-
-        ul {
-            line-height: 1.6;
-            padding-left: 18px;
-        }
-
-        /* GALLERY */
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 10px;
-        }
-
-        .gallery img {
-            width: 100%;
-            height: 150px;
-            border-radius: 8px;
-            object-fit: cover;
-        }
-
-        /* WHATSAPP BUTTON */
-        .whatsapp {
-            position: fixed;
-            bottom: 15px;
-            right: 15px;
-            background-color: #25D366;
-            color: white;
-            padding: 14px;
-            border-radius: 50%;
-            font-size: 22px;
-            text-decoration: none;
-        }
-
-        /* MAP */
-        iframe {
-            width: 100%;
-            height: 250px;
-            border: 0;
-            border-radius: 10px;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 12px;
-            font-size: 14px;
-        }
-
-        /* DESKTOP IMPROVEMENTS */
-        @media(min-width: 768px) {
-            header {
-                font-size: 26px;
-            }
-
-            .slider {
-                height: 300px;
-            }
-
-            .slides img {
-                height: 300px;
-            }
-
-            .gallery {
-                grid-template-columns: repeat(4, 1fr);
-            }
-
-            .gallery img {
-                height: 200px;
-            }
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slajewellery</title>
 </head>
-
 <body>
-
-<header>
-    Welcome to Sri Lakshmi Alankar Jewellery
-</header>
-
-<div class="slider">
-    <div class="slides">
-        <img src="https://via.placeholder.com/800x300?text=Gold+Necklace">
-        <img src="https://via.placeholder.com/800x300?text=Gold+Rings">
-        <img src="https://via.placeholder.com/800x300?text=Gold+Bangles">
-    </div>
-</div>
-
-<div class="content">
-
-<h2>We accept all type of gold jewellery work orders</h2>
-
-<h2>Why to choose us:</h2>
-<ul>
-<li>No compromise in gold purity, we sell only 22K 916 hallmarking (BIS) ornaments</li>
-<li>Zero making charges</li>
-<li>Least value addition (V.A%) / wastage</li>
-<li>We buy gold directly from bullion</li>
-<li>We are registered under GST, BIS (Hallmarking)</li>
-<li>Specialised in casting and computer cutting designs</li>
-<li>Professional in low weight ornaments</li>
-<li>Special offers for regular and repeated customers</li>
-<li>Transparent Pricing - No Hidden Charges</li>
-</ul>
-
-<h2>Our Jewellery Collection</h2>
-
-<div class="gallery">
-    <img src="https://via.placeholder.com/200?text=Necklace">
-    <img src="https://via.placeholder.com/200?text=Ring">
-    <img src="https://via.placeholder.com/200?text=Bangles">
-    <img src="https://via.placeholder.com/200?text=Earrings">
-</div>
-
-<h2>Find Us Here</h2>
-
-<iframe src="https://www.google.com/maps?q=Mahabubabad&output=embed"></iframe>
-
-</div>
-
-<!-- WhatsApp -->
-<a class="whatsapp" href="https://wa.me/919492910567">💬</a>
-
-<footer>
-Address: 6-1-108/15/39 NGOS Colony, Mahabubabad 506101
-</footer>
-
+    <header>
+        <h1>Welcome to Slajewellery</h1>
+    </header>
+    <section>
+        <h2>Featured Products</h2>
+        <div>
+            <img src="images/Chain.jpeg" alt="Gold Necklace">
+            <img src="images/Chain.jpeg" alt="Gold Rings">
+            <img src="images/Haram.jpeg" alt="Gold Bangles">
+        </div>
+        <div>
+            <img src="images/Bracelet1.jpeg" alt="Necklace">
+            <img src="images/Bracelet.jpeg" alt="Ring">
+            <img src="images/Bangle.jpeg" alt="Bangles">
+            <img src="images/Bangle1.jpeg" alt="Earrings">
+        </div>
+    </section>
+<!-- Other content goes here -->
 </body>
 </html>
